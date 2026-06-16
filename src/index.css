@@ -2,4 +2,13 @@
 @theme {
   --font-pop: "Poppins", sans-serif; 
 }
-  
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  width: 12px !important;
+  height: 12px !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #DB4444!important;
+}
