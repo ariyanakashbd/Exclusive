@@ -46,7 +46,7 @@ const FlashSales = () => {
   return (
    <>
    <Container>
-     <section className="py-16">
+     <section className="pt-16">
       <div className="flex items-center gap-3 mb-4">
         <div className="w-5 h-10 bg-red-500 rounded"></div>
         <span className="text-red-500 font-semibold">Today's</span>
