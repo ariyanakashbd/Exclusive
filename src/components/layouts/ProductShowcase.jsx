@@ -27,8 +27,10 @@ const ProductShowcase = ({ allpro }) => {
     <Container>
       <div className=" relative grid grid-cols-4 gap-7.5 font-pop text-[16px] font-medium text-[#000000]">
         {allpro.map((item) => (
-          <div className="relative">
+          <div className="relative group">
             <img className='bg-[#F5F5F5] mb-2' src={item.thumbnail} alt={item.title} />
+            <div className='bg-black text-white font-medium font-pop text-[16px] py-1 mb-2 mt-2 opacity-0 group-hover:opacity-100 transition-all duration-300'>
+              <Link to={'/cat'}className="block w-full bg-black text-white py-2 text-center">Add To Cart</Link> </div>
             <h3 className='mb-2'>{item.title}</h3>
             <p className='mb-2'>${item.price}</p>
             <div className="flex gap-1">
