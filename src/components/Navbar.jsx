@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <Container>
         <div className='flex justify-between mt-10 items-center'>
-          <div><img src={logo} alt="" /></div>
+          <Link to={""} ><img src={logo} alt="" /></Link>
           <div>
             <ul className='flex gap-x-12 text-[#000000] font-pop text-[16px]'>
              <Link><li className="border-b-2 border-transparent hover:border-gray-500 transition-all duration-300 ease-in-out">Home</li></Link>
